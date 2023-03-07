@@ -98,8 +98,6 @@ body {
 .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 1440px;
-    height: 732px;
     background-color: #F4F4FD;
 }
 
@@ -206,6 +204,8 @@ body {
 }
 
 .contact {
+    display: block;
+    padding: 24px 0;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color)
 }
@@ -263,6 +263,7 @@ body {
 
 .btn-menu-portfolio:hover,
 .btn-menu-portfolio:focus {
+    border-color: transparent;
     color: var(--btn-menu);
     background: var(--background-color)
 }
